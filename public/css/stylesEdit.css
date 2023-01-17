@@ -1,0 +1,67 @@
+html *{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.edit-box *{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#imgFoto{
+    width: 40%;
+    height: 40%;
+}
+
+#imgFoto{
+    position: relative;
+    animation: mymove 8s infinite;
+    border-width: 10px;
+    border-style: solid;
+}
+
+input:focus:not(.btn){
+    translate: 12%;
+    transition: 1s;
+}
+
+.btn:active{
+    scale: 1.2;
+    transform:translateY(5px);
+    transition: 1.2s;
+}
+
+@keyframes mymove {
+    25%   {
+        transform: scale(1.08); 
+        border-color: wheat;
+    } 
+    75%   {
+        transform: scale(1); 
+        border-color: black;
+    }
+}
+
+.card{
+    box-shadow: gray 3px 6px 12px 15px;
+}
+
+p{
+    font-size: 1vmax;
+}
+
+body{ min-height: 0vh; margin:0; }
+
+.content{ min-height: 86.1vh; }
+
+header{ min-height:50px; }
+footer{ min-height:50px; }
+
+/* The article fills all the space between header & footer */
+body{ display:flex; flex-direction:column; }
+
+.card:hover{
+    box-shadow: rgb(219, 223, 223) 0vmax 0vmax 4vmax 2vmax;
+    transform: translateY(30px);
+    transition: 0.8s;
+}

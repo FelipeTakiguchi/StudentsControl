@@ -1,0 +1,151 @@
+html *{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;    
+}
+
+body{
+    min-height: 650px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#header-options{
+    margin: 0.5%;
+}
+
+form:not(.sala){
+    padding-top: 5%;
+}
+
+img{
+    width: 12vmax;
+    height: 12vmax;
+    border: 2%;
+    border-color: black;
+    border-style: solid;
+}
+
+.edit-box{
+    text-align: center;
+}
+
+#imgFoto{
+    width: 20%;
+    height: 20%;
+}
+
+#subtittle{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    text-shadow: gray 1.5px 1.5px;
+}
+
+button{
+    width: 10vmax;
+}
+
+h2{
+    font-size: 1vmax;
+    font-weight: 900;
+}
+
+body{ min-height: 100vh; margin:0; }
+
+footer{ min-height:50px; background:PapayaWhip; }
+.content{ min-height: 82.2vh; }
+/* The article fills all the space between header & footer */
+body{ display:flex; flex-direction:column; }
+
+.edit-box *{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p, select, button.btn.btn-secondary, b, div button.btn{
+    font-size: 1vmax;
+}
+
+label{
+    font-size: 1vmax;
+}
+
+/* git config --global http.proxy http://disrct:etsds10243110@rb-proxy-ca1.bosch.com:8080
+
+form select, form input, form label{
+    max-height: 2vmax;
+    font-size: 0.90vmax;
+    padding: 0%;
+}
+
+form label{
+    margin-left: 15%;
+}
+
+form h4{
+    text-align: center;
+    font-size: 0.9vmax;
+}
+
+form input{
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    box-shadow: gray 2px 3px 4px 2px;
+}
+
+form div{
+    text-align: center;
+} */
+
+h5{
+    font-size: 1.5vmax;
+}
+
+.blur{
+    filter: blur(1.5rem);
+}
+
+.fix-element{
+    overflow: hidden;
+}
+
+.popup{
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: gray 2px 3px 3px 2px;
+    width: 45%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    overflow-y:auto;
+}
+
+.card{
+    width: 23.3%;
+    margin: 5%;
+    box-shadow: rgb(177, 177, 177) 2px 5px 7px 8px;
+    border: none;
+}
+
+.card:hover{
+    box-shadow: rgb(219, 223, 223) 0vmax 0vmax 4vmax 2vmax;
+    transform: scale(1.07);
+    transition: 0.8s;
+}
+
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
